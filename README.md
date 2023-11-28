@@ -10,7 +10,7 @@ The goal of the project is to develop a ML model which can detect and hard label
 
 ## Method
 
-I first break the audio file into segments of 512 samples and obtain the input features for each segment. The input features are MFCCs, ΔMFCCs and Δ $^2$ MFCCs of the audio segment.
+I first break the audio file into segments of 512 samples and obtain the input features for each segment. The input features are MFCCs, ΔMFCCs and $Δ^2$ MFCCs of the audio segment.
 
 The ML model then classifies each segment as containing singing or not.
 
